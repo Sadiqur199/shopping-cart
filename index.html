@@ -1,0 +1,114 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section>
+      <div id="login-area">
+        <h1 class="text-center">My Shopping Cart</h1>
+        <div id="submit-area">
+          <h4 class="text-center">LOGIN</h4>
+          <br>
+          <input type="text" class="form-control" placeholder="Enter Your Mail">
+          <br>
+          <input type="password" class="form-control" placeholder="Enter Your Pass">
+          <br>
+          <button class="btn btn-success" id="login">Submit</button>
+        </div> 
+      </div>
+    </section>
+    <!-- first section End -->
+    <section id="Header-area">
+      <div class="container">
+        <h2 class="header-design">Welcome To iPhone World</h2>
+        <div class="cart">
+          <div class="col-md-12 col-lg-10 mx-auto" >
+            <div class="cart-item">
+              <div class="row">
+                <div class="col-md-7 center-item">
+                  <img src="images/product-1.png" alt="">
+                  <h5>iPhone 11 128GB Black</h5>
+                </div>
+
+                <div class="col-md-5 center-item">
+                  <div class="input-group number-spinner">
+                    <button id="btn-phone-minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                    <input id="phone-number-field" class="form-control text-center" type="number" min="0" value="1">
+                    <button id="btn-phone-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                  </div>
+                   
+                    <h5>$<span id="phone-total">1300</span></h5>
+                    <img src="images/remove.png" alt="" class="remove-item">
+                   
+                </div>
+              </div>
+            </div>
+                 <!-- frist image section end -->
+
+            <div class="cart-item">
+              <div class="row">
+                <div class="col-md-7 center-item">
+                  <img src="images/product-2.png" alt="">
+                  <h5>iPhone 11 Silicone Case - Black</h5>
+                </div>
+
+                <div class="col-md-5 center-item">
+                  <div class="input-group number-spinner">
+                    <button id="btn-case-minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                    <input id="case-number-field" class="form-control text-center" type="number" min="0" value="1">
+                    <button id="btn-case-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                  </div>
+                   
+                    <h5>$<span id="case-total">60</span></h5>
+                    <img src="images/remove.png" alt="" class="remove-item">
+                </div>
+
+              </div>
+            </div>
+             <!-- second image section end -->
+
+             <div class="cart-item">
+              <div class="row">
+
+                <div class="col-md-8 status-1">
+                  <h5>Subtotal: </h5>
+                  <h5>Tax:</h5>
+                  <h5>Total:</h5>
+                </div>
+
+                <div class="col-md-4 status">
+                  <h5>$<span id="sub-total">1278</span></h5>
+                  <h5>$<span id="tax-amount">0</span></h5>
+                  <h5>$<span id="final-total">1278</span></h5>
+                </div>
+              </div>
+             </div>
+ 
+             <div class="col-md-12 pt-4 pb-4">
+              <button class="btn btn-success check-out" id="button-call" type="button">check-out</button>
+             </div>
+
+          </div>
+        </div>
+        
+       </div>
+    </section>
+  
+
+
+<script src="js/login.js"></script>
+  <script src="js/checkout.js"></script>
+  <script src="js/phone.js"></script>
+  <script src="js/cover.js"></script>
+  <script src="js/total.js"></script>
+  <script src="https://kit.fontawesome.com/0e2c7ab0d7.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
+  </html>

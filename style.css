@@ -1,0 +1,74 @@
+body{
+  background-color: #fff;
+}
+.header-design{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+}
+.cart{
+  margin: 100px 0px;
+  background-color: #F6F5FA;;
+  padding: 60px 0px;
+}
+.cart-item{
+  background-color: #fff;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+ .center-item{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.cart-item img{
+  width: 100px;
+}
+
+.cart-item h5{
+padding: 0 45px;
+}
+.cart-item .remove-item{
+  width: 25px !important;
+  /* margin-left: 45px; */
+}
+.btn-default{
+  background-color: #fff;
+}
+.cart-item .form-control{
+  background-color: #F6F5FA;
+  border: none;
+  border-radius: 10px;
+  width: 65px;
+  font-weight: 700px;
+  font-size: 20px;
+}
+.input-group{
+  width: unset;
+ flex-wrap: nowrap;
+}
+.status{
+  text-align: right;
+}
+
+.check-out{
+  float: right;
+  padding: 10px 30px;
+  font-size: 20px;
+  background-color: #2FBE70;
+  border: none;
+}
+#submit-area{
+  border-radius: 10px;
+  box-shadow: 5px 5px  15px gray;
+  margin-top: 50px;
+  padding: 40px;
+}
+#login-area{
+  padding: 100px;
+}
+#Header-area{
+  display: none;
+}
